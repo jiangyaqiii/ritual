@@ -53,7 +53,7 @@ cat > config.json <<EOF
   "chain": {
     "enabled": true,
     "trail_head_blocks": 5,
-    "rpc_url": "https://base-rpc.publicnode.com",
+    "rpc_url": "$rpc_url",
     "coordinator_address": "0x8D871Ef2826ac9001fB2e33fDD6379b6aaBF449c",
     "wallet": {
       "max_gas_limit": 5000000,
