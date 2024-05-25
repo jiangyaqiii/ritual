@@ -13,6 +13,19 @@ SCRIPT_PATH="$HOME/Ritual.sh"
 # 节点安装功能
 function install_node() {
 
+# 提示用户输入private_key
+read -p "输入EVM 钱包私钥，必须是0x开头，建议使用新钱包: " private_key
+
+# 提示用户输入设置端口
+read -p "输入端口: " port1
+
+# 提示用户输入设置端口
+read -p "输入Docker hub 用户名: " username
+read -p "输入Docker hub 密码: " password
+
+#
+read -p "输入rpc地址: " rpc_url
+
 # 更新系统包列表
 sudo apt update
 
