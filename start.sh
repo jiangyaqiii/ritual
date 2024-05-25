@@ -148,3 +148,4 @@ echo "=========================安装完成=====================================
 echo "请使用cd infernet-node/deploy 进入目录后，再使用docker compose logs -f 查询日志 "
 
 }
+install_node;
